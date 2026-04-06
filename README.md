@@ -1,7 +1,5 @@
-- **Name:** Yuvika Shendge
-- **UFID:** 61747967
-
----
+**Name:** Yuvika Shendge
+**UFID:** 61747967
 
 ## How to Run
 
@@ -93,8 +91,6 @@ Why this works:
 - If characters match we include it and add its value
 - If they don't match we skip one and take the better option
 - Base cases are 0 because an empty string has nothing to match to
-
----
 
 ## Question 3:
 
