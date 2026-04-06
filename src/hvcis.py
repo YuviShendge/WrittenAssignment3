@@ -31,3 +31,16 @@ def hvlcs(A, B, values):
     subseq.reverse()
     return dp[n][m], "".join(subseq)
 
+
+# reads input
+K = int(input())
+values = {}
+for _ in range(K):
+    ch, val = input().split()
+    values[ch] = int(val)
+A = input().strip()
+B = input().strip()
+
+max_value, subsequence = hvlcs(A, B, values)
+print(max_value)
+print(subsequence)
